@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+        "id": 1,
+        "pseudo": "Alain",
+        "email": "user1@nowmail.com",
+        "password": "123456",
+        "urlImgProfil": "https://via.placeholder.com/400x200.jpg"
+      },
+      {
+        "id": 2,
+        "pseudo": "Céline",
+        "email": "user2@nowmail.com",
+        "password": "234567",
+        "urlImgProfil": "https://via.placeholder.com/400x200.jpg"
+      },
+      {
+        "pseudo": "hehe",
+        "mail": "hehe@ghe.com",
+        "password": "dedede",
+        "passwordConfirm": "dedede",
+        "urlImg": "dedededededededeedede",
+        "id": 3
+      }
+    ],
+    "articles": [
+      {
+        "id": 1,
+        "pseudo": "Alain",
+        "urlImgArticle": "https://via.placeholder.com/400x200.jpg",
+        "like": 2,
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": 1649277945051,
+        "commentaires": [
+          {
+            "id": 1,
+            "pseudo": "Céline",
+            "contenu": "Lorem ipsum dolor sit amet",
+            "dt": 1649277945052
+          },
+          {
+            "id": 2,
+            "pseudo": "Céline",
+            "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "dt": 1649277945052
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pseudo": "Céline",
+        "urlImgArticle": "https://via.placeholder.com/400x200.jpg",
+        "like": 4,
+        "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date": 1649277945063,
+        "commentaires": [
+          {
+            "id": 1,
+            "pseudo": "Alain",
+            "contenu": "Lorem ipsum dolor sit amet",
+            "dt": 1649277945063
+          },
+          {
+            "id": 2,
+            "pseudo": "Alain",
+            "contenu": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "dt": 1649277945063
+          }
+        ]
+      }
+    ]
+}
